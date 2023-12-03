@@ -14,10 +14,10 @@ export const userLogin = createAsyncThunk(
 
       if (data.success) {
           alert("login succssfully");
-        //  toast.success(data.message);
+        // toast.success(data.message);
         localStorage.setItem("token", data.token);
         console.log(data.token);
-        window.location.replace("/");
+          window.location.replace("/");
       }
 
       return data;

@@ -28,7 +28,7 @@ const Header = () => {
                 <FaRegCircleUser /> Welcome{" "}
                 {user?.name || user?.hospitalName || user?.organisationName}{" "}
                 &nbsp;
-                <span class="badge bg-secondary">{user?.role}</span>
+                <span className="badge bg-secondary">{user?.role}</span>
               </p>
             </li>
             <li className="nav-item mx-3">
