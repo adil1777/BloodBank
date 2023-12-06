@@ -24,7 +24,7 @@ const Consumer = () => {
       console.log(error);
     }
   };
-
+  
   useEffect(() => {
     getDonars();
   }, []);
