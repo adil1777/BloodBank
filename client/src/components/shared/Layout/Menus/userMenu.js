@@ -13,6 +13,11 @@ export const userMenu=[
         name:'Hospital',
         path:'/hospital',
         icon:"fa-sharp fa-solid fa-hospital"
+    },
+    {
+        name:'organisation',
+        path:'/organisation',
+        icon:"fa-solid fa-building-ngo"
     }
 
 ];

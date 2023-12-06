@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  /* overflow: hidden; */
 }
 
 /* =============
@@ -49,10 +50,12 @@
  =====Navbar===
  =========================== */
  .navbar{
-  background-color: black !important;
-  color:white !important;
+  background-color: #64CCC5 !important;
+  color:black !important;
  }
  .nav-link ,.navbar-brand{
-   background-color: black !important;
-   color:white !important;
+   background-color: #64CCC5 !important;
+   color:black !important;
  }
+
+
