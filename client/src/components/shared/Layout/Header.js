@@ -21,12 +21,12 @@ const Header = () => {
         <div className="container-fluid">
           <div className="navbar-brand h1">
             {" "}
-            <BiDonateBlood /> <span className="badge bg-secondary">Blood Bank App</span>
+            <BiDonateBlood  color="red" /> <span className="badge bg-secondary">LifeDropHub</span>
           </div>
           <ul className="navbar-nav flex-row">
             <li className="nav-item mx-3">
-              <p className="navlink ">
-                <FaRegCircleUser /> <span className="badge bg-secondary"> Welcome{" "}
+              <p className="nav-link ">
+                <FaRegCircleUser color="black"/> {" "}<span style={{color:"black"}}>Welcome {" "}
                 {user?.name || user?.hospitalName || user?.organisationName}{" "}</span>
                 &nbsp;
                 <span className="badge bg-secondary">{user?.role}</span>
